@@ -44,7 +44,7 @@
         </dependency>
         <dependency>
             <groupId>com.feth</groupId>
-            <artifactId>play-easymail_2.10</artifactId>
+            <artifactId>play-easymail_2.11</artifactId>
             <version>0.5-SNAPSHOT</version>
         </dependency>
         <dependency>
@@ -79,6 +79,18 @@
             <id>jBCryptRepository</id>
             <name>jBCrypt Repository</name>
             <url>http://repo1.maven.org/maven2/org/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>tistvansnapshotbuilds</id>
+            <name>tistvan snapshot builds</name>
+            <url>http://tistvan.github.io/repository/snapshots/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>tistvanreleasebuilds</id>
+            <name>tistvan release builds</name>
+            <url>http://tistvan.github.io/repository/releases/</url>
             <layout>default</layout>
         </repository>
     </repositories>
