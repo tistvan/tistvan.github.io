@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
-	<info organisation="io.swagger" module="swagger-scala-module_2.11" revision="1.0.2-play25-SNAPSHOT" status="integration" publication="20160315092333">
+	<info organisation="io.swagger" module="swagger-scala-module_2.11" revision="1.0.2-play25-SNAPSHOT" status="integration" publication="20160315110409">
 		<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 		<description homepage="https://github.com/swagger-api/swagger-scala-module">
 		swagger-scala-module
