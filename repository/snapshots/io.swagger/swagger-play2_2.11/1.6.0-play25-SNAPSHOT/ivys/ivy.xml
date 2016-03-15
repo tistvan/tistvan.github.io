@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="io.swagger" module="swagger-play2_2.11" revision="1.6.0-play25-SNAPSHOT" status="integration" publication="20160315100819">
+		<description>
+		swagger-play2
+		</description>
+	</info>
+	<configurations>
+		<conf name="compile" visibility="public" description=""/>
+		<conf name="runtime" visibility="public" description="" extends="compile"/>
+		<conf name="test" visibility="public" description="" extends="runtime"/>
+		<conf name="provided" visibility="public" description=""/>
+		<conf name="optional" visibility="public" description=""/>
+		
+		
+		
+		
+		<conf name="sources" visibility="public" description=""/>
+		
+		<conf name="pom" visibility="public" description=""/>
+		
+	</configurations>
+	<publications>
+		<artifact name="swagger-play2_2.11" type="pom" ext="pom" conf="pom"/>
+		<artifact name="swagger-play2_2.11" type="jar" ext="jar" conf="compile"/>
+		<artifact name="swagger-play2_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		
+	</publications>
+	<dependencies>
+		
+		<dependency org="org.scala-lang" name="scala-library" rev="2.11.7" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="twirl-api_2.11" rev="1.1.1" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="play-server_2.11" rev="2.5.0" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="play-test_2.11" rev="2.5.0" conf="test->default(compile)"/>
+		
+		<dependency org="com.typesafe.play" name="play-netty-server_2.11" rev="2.5.0" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="play-logback_2.11" rev="2.5.0" conf="compile->default(compile)"/>
+		<dependency org="org.slf4j" name="slf4j-api" rev="1.6.4" conf="compile->default(compile)"/>
+		<dependency org="io.swagger" name="swagger-core" rev="1.5.8" conf="compile->default(compile)"/>
+		<dependency org="io.swagger" name="swagger-scala-module_2.11" rev="1.0.2-play25-SNAPSHOT" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="routes-compiler_2.11" rev="2.5.0" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="play-ebean_2.11" rev="2.0.0" conf="test->default(compile)"/>
+		<dependency org="org.specs2" name="specs2-core_2.11" rev="3.6.6" conf="test->default(compile)"/>
+		<dependency org="org.specs2" name="specs2-mock_2.11" rev="3.6.6" conf="test->default(compile)"/>
+		<dependency org="org.specs2" name="specs2-junit_2.11" rev="3.6.6" conf="test->default(compile)"/>
+		<dependency org="org.mockito" name="mockito-core" rev="1.9.5" conf="test->default(compile)"/>
+	</dependencies>
+</ivy-module>
