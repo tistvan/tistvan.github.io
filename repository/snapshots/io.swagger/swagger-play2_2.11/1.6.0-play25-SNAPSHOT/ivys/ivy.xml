@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
-	<info organisation="io.swagger" module="swagger-play2_2.11" revision="1.6.0-play25-SNAPSHOT" status="integration" publication="20160315110434">
+	<info organisation="io.swagger" module="swagger-play2_2.11" revision="1.6.0-play25-SNAPSHOT" status="integration" publication="20160321204643">
 		<description>
 		swagger-play2
 		</description>
